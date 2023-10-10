@@ -1,0 +1,32 @@
+table.calendar{
+    width: 80%;
+}
+
+table.calendar th, table.calendar td{
+    padding: 20px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+table.calendar th:first-of-type:not(:first-child), table.calendar td:first-of-type{
+    background-color: #ffcccc;
+    color: #e2041b;
+}
+
+table.calendar th:last-of-type:not(:last-child), table.calendar td:last-of-type{
+    background-color: #99ccff;
+    color: #0066ff;
+}
+
+.kakunin{
+    text-align: right;
+}
+
+input[type =text]{
+    width:180px;
+    height:1045px;
+    text-align: right;
+    padding: 20px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
